@@ -1908,15 +1908,17 @@ img {
 }
 
 .header-style-three .header-upper .logo-box {
-  border-radius: 0px 0px 33% 33%;
+  /* border-radius: 0px 0px 33% 33%; */
   padding: 30px 0px 40px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 .main-header .header-upper .logo-box .logo {
   position: relative;
 }
-
+/* .logo{
+  height:200%;
+} */
 .main-header .header-lower {
   position: relative;
   background-color: rgba(0, 0, 0, 0.55);
@@ -2436,6 +2438,8 @@ img {
   background-image: url(/images/background/bg-1.png);
   min-height: 800px;
 
+		background-position: center;
+	
 }
 
 .main-menu .navigation > li > ul > li > ul > li.dropdown:hover > a:after {
@@ -2601,6 +2605,9 @@ img {
   text-align: center;
   padding-bottom: 20px;
 
+}
+.services-icons{
+  max-height: 80%;
 }
 .main-slider.style-four .content h1 {
   color: #ffffff;
@@ -2974,7 +2981,7 @@ img {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Slider
@@ -3118,7 +3125,13 @@ img {
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
 }
-
+.plus{
+  background-image: url(/images/icons/plus.png);
+}
+.send{
+  max-height: 15px;
+  padding-left: 5px;
+}
 .services-block .inner-box .plus-box .plus {
   position: absolute;
   right: 0px;
@@ -4773,9 +4786,10 @@ img {
 
 .map-info-section .outer-container .right-column {
   position: relative;
-  width: 50%;
+  width: 100%;
   float: right;
 }
+
 
 .map-info-section .outer-container .right-column:before {
   position: absolute;
@@ -6544,7 +6558,7 @@ img {
   font-size: 16px;
   color: #1a1e66;
   line-height: 1.7em;
-  max-width: 280px;
+  max-width: 100%;
 }
 
 /*** 
