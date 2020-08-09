@@ -3106,6 +3106,7 @@ img {
   color: #1a1e66;
   line-height: 1.7em;
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 .services-block .inner-box .plus-box {
@@ -6559,6 +6560,7 @@ img {
   color: #1a1e66;
   line-height: 1.7em;
   max-width: 100%;
+  text-align: justify;
 }
 
 /*** 
